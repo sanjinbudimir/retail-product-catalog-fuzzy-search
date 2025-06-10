@@ -7,7 +7,6 @@ import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 
@@ -23,13 +22,15 @@ public class ProductCatalogServiceImpl implements ProductCatalogServiceInterface
 
     private final ProductCatalogRepositoryInterface productRepository;
 
-    public ProductCatalogServiceImpl(ProductCatalogRepositoryInterface productRepository) {
+    private final ObjectMapper objectMapper;
+
+    public ProductCatalogServiceImpl(ProductCatalogRepositoryInterface productRepository, 
+    ObjectMapper objectMapper) {
 
         this.productRepository = productRepository;
+        this.objectMapper = objectMapper;
     }
 
-    @Autowired
-    private ObjectMapper objectMapper;
 
     public Product addProduct(Product product) {
         if (product == null) {
