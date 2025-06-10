@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          secret-key: testtesttesttesttesttesttesttest
+custom:
+  client:
+    id: test-client
+    secret: test-secret
+
+logging:
+  level:
+    com.sb.api: DEBUG

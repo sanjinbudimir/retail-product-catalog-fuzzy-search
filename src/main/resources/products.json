@@ -1,0 +1,12 @@
+[
+  {"name": "Laptop", "category": "Electronics", "description": "High-performance laptop", "price": 1500.0, "imageUrl": "laptop.jpg"},
+  {"name": "Smartphone", "category": "Electronics", "description": "Latest model smartphone", "price": 999.0, "imageUrl": "smartphone.jpg"},
+  {"name": "Coffee Maker", "category": "Appliances", "description": "Brews great coffee", "price": 85.0, "imageUrl": "coffee_maker.jpg"},
+  {"name": "Wireless Headphones", "category": "Electronics", "description": "Noise-cancelling headphones", "price": 199.0, "imageUrl": "headphones.jpg"},
+  {"name": "Gaming Mouse", "category": "Computers", "description": "Ergonomic gaming mouse", "price": 59.0, "imageUrl": "mouse.jpg"},
+  {"name": "Electric Toothbrush", "category": "Personal Care", "description": "Rechargeable electric toothbrush", "price": 49.0, "imageUrl": "toothbrush.jpg"},
+  {"name": "Backpack", "category": "Accessories", "description": "Water-resistant travel backpack", "price": 79.0, "imageUrl": "backpack.jpg"},
+  {"name": "Fitness Tracker", "category": "Wearables", "description": "Monitors heart rate and steps", "price": 129.0, "imageUrl": "tracker.jpg"},
+  {"name": "Smartwatch", "category": "Wearables", "description": "Tracks fitness and notifications", "price": 249.0, "imageUrl": "smartwatch.jpg"},
+  {"name": "Desk Lamp", "category": "Home", "description": "LED adjustable desk lamp", "price": 39.0, "imageUrl": "lamp.jpg"}
+]
